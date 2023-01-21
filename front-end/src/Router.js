@@ -6,7 +6,7 @@ export default function Router () {
     return (
         <>
             <Routes>
-                <Route path="/login" ></Route>
+                <Route path="/login" element={<Login />}></Route>
             </Routes>
         </>
     )
