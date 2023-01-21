@@ -7,19 +7,6 @@ class Clothing():
         self.colour = colour
         self.clean = clean
 
-    def print_info(self):
-        print(f"Name: {self.name}")
-        print(f"Description: {self.desc}")
-
-    def get_info(self):
-        info_str = f"Name: {self.name}\nDescription: {self.desc}\nType: {self.clothing_type}"
-        return info_str
-
-    def get_name(self):
-        return self.name
-
-    def is_clean(self):
-        return self.clean 
 
 class Top(Clothing):
     def __init__(self, name, desc="", colour="#ffffff", sleeves=True, clean=True):
@@ -34,6 +21,10 @@ class Shoes(Clothing):
     def __init__(self, name, desc="", colour="#ffffff", clean=True):
         super().__init__(name, "SHOES", desc, colour, clean)
         
+
+
+
+
 def main():
     pass
 
