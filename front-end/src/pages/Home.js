@@ -1,17 +1,11 @@
 import "../styles/Home.css"
+import Header from "./Header"
 
 export default function Home() {
 
     return(
         <>
-        <header>
-            <a href="#" class="logo">Title</a>
-            <ul>
-                <li><a href="#top" class="back-to-top-link"> Home </a></li>
-                <li><a href="/review"> Ratings </a></li>
-                <li><a href="/about"> About </a></li>
-            </ul>
-        </header>
+        <Header/>
         <div class="div-intro">
             <section>
                 <h1>Don't know what to wear?</h1>
