@@ -19,10 +19,6 @@ class Bottom(Clothing):
 class Shoes(Clothing):
     def __init__(self, name, desc="", colour="#ffffff", clean=True):
         super().__init__(name, desc, colour, clean)
-        
-
-
-
 
 def main():
     pass
